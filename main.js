@@ -43,7 +43,7 @@ tree.insert(301)
 console.log('IS BALANCED? :', tree.isBalanced())
 
 console.log('BALANCING TREE....')
-tree.rebalance()
+tree.reBalance()
 console.log('IS BALANCED? :', tree.isBalanced())
 
 console.log('LEVEL ORDER :', tree.levelOrder())
