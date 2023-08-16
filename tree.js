@@ -112,7 +112,6 @@ export default class Tree{
         return result;
     }  
     
-    
     // PREORDER
     
     preOrder(callback) {
