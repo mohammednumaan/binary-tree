@@ -193,7 +193,7 @@ export default class Tree{
     
     // REBALANCE
     
-    rebalance(){
+    reBalance(){
         if (this.root === null) return;
         const sortedArray = [...new Set(this.inOrder().sort((a, b) => a - b))];
         this.root = this.buildTree(sortedArray);
